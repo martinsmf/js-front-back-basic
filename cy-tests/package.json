@@ -1,0 +1,25 @@
+{
+  "name": "cy-tests",
+  "version": "1.0.0",
+  "description": "Entendendo o Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "./node_modules/.bin/cypress run",
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "autmoação",
+    "end",
+    "to",
+    "end"
+  ],
+  "author": "Matheus Martins",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^4.5.13",
+    "cypress": "^7.2.0",
+    "global": "^4.4.0"
+  }
+}
